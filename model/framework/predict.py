@@ -18,8 +18,6 @@ with open(infile, "r") as f:
     for r in reader:
         smiles += [r[0]]
 
-print(smiles)
-
 from rdkit import Chem
 from mordred import Calculator, descriptors
 
