@@ -1,24 +1,40 @@
 # PAMPA effective permeability
 
-## Model Identifiers
-- Slug: Pampa-permeability
-- Ersilia ID: eos97yu
-- Tags: LogP,	permeability,	ADMET
+The authors provide a dataset of 200 small molecules and their experimentally measured permeability in a PAMPA assay. Using this data, we have trained a model that predicts the logarithm of the effective permeability coefficient.
 
-## Model Description 
-Cell free in vitro parallel artificial membrane permeability assay 
-- Input: SMILES 
-- Output: Probability (Probability of logPe ≥−6.0) 
-- Model type: Classification
-- Mode of training: In-house
-- Training Data: 97 compounds (https://qsardb.org/repository/handle/10967/184)
-- Experimentally validated: Yes
+## Identifiers
 
-## Source code
-This model was published by Chi CT, Lee MH, Weng CF, Leong MK. In Silico Prediction of PAMPA Effective Permeability Using a Two-QSAR Approach. Int J Mol Sci. 2019;20(13):3170. Published 2019 Jun 28. DOI: [10.3390/ijms20133170](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/)
+* EOS model ID: `eos97yu`
+* Slug: `pampa-permeability`
+
+## Characteristics
+
+* Input: `Compound`
+* Input Shape: `Single`
+* Task: `Regression`
+* Output: `Experimental value`
+* Output Type: `Float`
+* Output Shape: `Single`
+* Interpretation: logPe
+
+## References
+
+* [Publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/)
+* [Source Code](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/)
+* Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
+
+## Citation
+
+If you use this model, please cite the [original authors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
 
 ## License
-The GPL-v3 applies to all parts of this repository and is located at the main folder
 
-## History
-- Model was downloaded on November 10, 2021
+This package is licensed under a GPL-3.0 license. The model contained within this package is licensed under a None license.
+
+Notice: Ersilia grants access to these models 'as is' provided by the original authors, please refer to the original code repository and/or publication if you use the model in your research.
+
+## About Us
+
+The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
+
+[Help us](https://www.ersilia.io/donate) achieve our mission!
