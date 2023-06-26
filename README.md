@@ -23,6 +23,9 @@ The authors provide a dataset of 200 small molecules and their experimentally me
 * [Source Code](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/)
 * Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos97yu)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
