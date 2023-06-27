@@ -28,5 +28,6 @@
     "Publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/",
     "Source Code": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/",
     "License": "None",
-    "Contributor": "miquelduranfrigola"
+    "Contributor": "miquelduranfrigola",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos97yu.zip"
 }

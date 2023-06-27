@@ -25,6 +25,7 @@ The authors provide a dataset of 200 small molecules and their experimentally me
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos97yu)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos97yu.zip)
 
 ## Citation
 
