@@ -1,4 +1,4 @@
-input
+smiles
 CO[C@H]1O[C@H](COS(O)(=O)=O)[C@@H](O[C@@H]2O[C@H]([C@@H](OC)[C@H](O)[C@H]2OS(O)(=O)=O)C(O)=O)[C@H](O)[C@H]1NS(O)(=O)=O
 Cc1[nH]c(C)c(Cl)c(=O)c1Cl
 CCCCC\C=C/C\C=C/C\C=C/C\C=C/CCCC(O)=O
