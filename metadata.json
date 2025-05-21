@@ -4,35 +4,45 @@
     "Status": "Ready",
     "Title": "PAMPA effective permeability",
     "Description": "The authors provide a dataset of 200 small molecules and their experimentally measured permeability in a PAMPA assay. Using this data, we have trained a model that predicts the logarithm of the effective permeability coefficient.\n",
-    "Mode": "In-house",
+    "Source": "Local",
+    "Source Type": "Internal",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
-    "Task": [
-        "Regression"
+    "Input Dimension": 1,
+    "Task": "Annotation",
+    "Subtask": "Property calculation or prediction",
+    "Biomedical Area": [
+        "ADMET"
+    ],
+    "Target Organism": [
+        "Not Applicable"
     ],
     "Output": [
         "Experimental value"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "Single",
-    "Interpretation": "logPe",
+    "Output Dimension": 1,
+    "Output Consistency": "Fixed",
+    "Interpretation": "Predicted Log of the Permeability Coefficient in PAMPA assay",
     "Tag": [
         "Permeability",
         "ADME",
         "LogP"
     ],
     "Publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 2019,
     "Source Code": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/",
     "License": "None",
     "Contributor": "miquelduranfrigola",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos97yu.zip",
+    "Incorporation Date": "2021-11-10",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos97yu",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos97yu.zip",
+    "Deployment": [
+        "Local"
     ]
 }
