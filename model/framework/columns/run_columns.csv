@@ -1,0 +1,2 @@
+name,type,direction,description
+log_pe,float,high,Log10 of permeability coefficient
